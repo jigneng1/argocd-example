@@ -15,7 +15,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: backend-depl
-        image: thetkpark/gdsc-basic-k8s-todo-server:v1
+        image: jigneng1/basic-k8s-todo-server:latest
         resources:
           limits:
             memory: "32Mi"
